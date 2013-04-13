@@ -1,0 +1,46 @@
+CHANGELOG
+
+Version 0.6b
+* Updated to allow administrators to lease subclaims within administrative claims. Please note that 
+administrative claims are not sellable, only subclaims.
+
+Version 0.52b
+* Changed ordering of permissions checking. Now we make sure that the sign is a 
+GPRealEstate sign before we check the permissions (and report accordingly!)- Thanks Turqmelon 
+for reporting this one!
+
+
+Version 0.51b
+* Due to typo the permission nodes were wrong! These have now been corrected.
+* All users now get GPRealEstate.buy by default.
+
+
+Version 0.5b
+* Vault has been integrated for economy and permissions.
+* New permissions have been added
+	* GPRealEstate.* - Allows users to buy and sell all claims and subclaims (op by default)
+	* GRRealEstate.buy - Allows users to buy (or lease) claims and subclaims - default is false.
+	* GRRealEstate.sell - Allows users to sell (or lease) claims and subclaims - default is false.
+
+Version 0.4.1a
+* Compiled against CraftBukkit 1.2.5-R1.3
+
+Version 0.4a
+* Plugin no longer throws an exception when a sign is placed outside a GP Claim (thanks BigScary!)
+
+Version 0.3a
+* Players can now sell/buy/lease claims and subclaims by putting a sign with the top line of [re]
+* Checks to make sure that the player has permission to sell
+* Rechecks sellers ownership when player buys a claim
+* When players purchase a region the sign is destroyed and a sign is dropped
+
+Version 0.2a 
+* Listeners tested (confirmed right click on signs, place sign with correct line0)
+
+Version 0.1a 
+* Classes and Listeners created.
+
+
+
+
+

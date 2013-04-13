@@ -1,0 +1,19 @@
+name: GPRealEstate
+main: com.github.leezallen.GPRealEstate.GPRealEstate
+version: 0.6b
+author: leezallen
+depend: [GriefPrevention, Vault]
+
+permissions:
+  GPRealEstate.*:
+    description: Gives access to all GPRealEstate functions.
+    default: op
+    children:
+      GPRealEstate.sell: true
+      GPRealEstate.buy: true
+  GPRealEstate.sell:
+    description: Allows player to sell claims and subclaims.
+    default: false
+  GPRealEstate.buy:
+    description: Allows player to buy claims and lease subclaims.
+    default: true
