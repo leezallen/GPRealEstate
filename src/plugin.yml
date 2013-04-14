@@ -1,6 +1,6 @@
 name: GPRealEstate
 main: com.github.leezallen.GPRealEstate.GPRealEstate
-version: 0.6b
+version: 0.61b
 author: leezallen
 depend: [GriefPrevention, Vault]
 

@@ -258,7 +258,7 @@ public class GPREListener implements Listener {
 						
 						signClaim.clearPermissions();
 						
-						signClaim.managers.add(signPlayer.getName());
+						signClaim.addManager(signPlayer.getName());
 						if (signClaim.allowGrantPermission(signPlayer)==null) {
 							signPlayer.sendMessage(ChatColor.YELLOW + GPRESigns.name + " You have been given the ability to change permissions on this claim.");
 						} else {

@@ -1,7 +1,7 @@
 CHANGELOG
 
 Version 0.61b
-* Updated as change of method of adding managers to claims due to a change in GP version 7.7
+* Updated as change of method of adding managers to claims.
 
 Version 0.6b
 * Updated to allow administrators to lease subclaims within administrative claims. Please note that 
