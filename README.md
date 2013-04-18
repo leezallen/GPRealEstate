@@ -1,4 +1,1 @@
-GPRealEstate
-============
-
-Allow players to buy, lease and sell Grief Prevention claims.
+This plugin has now been superceded by http://github.com/leezallen/ClaimManager
